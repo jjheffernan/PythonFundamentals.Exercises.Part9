@@ -38,7 +38,9 @@ def is_json(filename):
 
 def load_pickle(filepath: str):
     f = open(filepath)
-    pass
+    output = f.read()
+    print(output)
+    # pass
 
 
 if __name__ == '__main__':
